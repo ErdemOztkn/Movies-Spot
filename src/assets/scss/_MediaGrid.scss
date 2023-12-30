@@ -1,0 +1,43 @@
+.pageHeader {
+    width: 100%;
+    background-image: url("/images/footer.jpg");
+    background-size: cover;
+    height: 170px;
+    position: relative;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    background-attachment: fixed;
+
+    h1{
+        color: white;
+        position: relative;
+        bottom: -20px;
+    }
+}
+
+.mediaWrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 50px auto;
+
+    .mediaGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .pagination{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        
+        h3{
+            color: white;
+            margin: 0 10px 0 10px;
+        }
+    }
+}

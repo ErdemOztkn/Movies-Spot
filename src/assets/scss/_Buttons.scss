@@ -1,0 +1,27 @@
+.filled {
+    background-color: #ff0000;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #ff00004d;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outlined {
+    background: none;
+    padding: 4px 8px;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    border: solid white 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

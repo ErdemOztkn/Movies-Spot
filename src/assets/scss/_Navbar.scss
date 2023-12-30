@@ -1,0 +1,57 @@
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    justify-content: center;
+    display: flex;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        max-width: 1200px;
+        width: 100%;
+
+        .logo {
+            h1 {
+                font-family: 'UPBOLTERS', sans-serif;
+            }
+        }
+
+        .navLinks {
+            display: flex;
+            align-items: center;
+
+            ul {
+                margin-right: 15px;
+
+                li {
+                    display: inline-block;
+                    margin: 8px;
+                    font-size: medium;
+                }
+            }
+
+            .outlined {
+                display: none;
+            }
+        }
+    }
+
+
+}
+
+.shrink {
+    background-color: rgb(20, 20, 20, 1);
+}
+
+@media screen and (max-width: 900px) {
+    .navLinks {
+        display: none !important;
+    }
+}

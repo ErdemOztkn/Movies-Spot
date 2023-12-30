@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.cdnfonts.com/css/upbolters-2');
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+@import './_Buttons.scss';
+@import './_Card.scss';
+@import './_Carousel.scss';
+@import './_Details.scss';
+@import './_Footer.scss';
+@import './_HeroSlide.scss';
+@import './_MediaGrid.scss';
+@import './_Navbar.scss';
+@import './_SearchBar.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+body{
+    background: #151515;
+    overflow-y: scroll;
+}
